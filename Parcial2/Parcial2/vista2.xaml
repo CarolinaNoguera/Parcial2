@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial2.vista2">
+
+    <StackLayout Orientation="Vertical">
+        
+        <Label Text="FORGOT PASSWORD"/>
+
+        <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Email"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Image Source="https://www.shareicon.net/data/256x256/2015/12/15/687621_line_512x512.png" WidthRequest="30"></Image>
+            </StackLayout>
+
+
+        </StackLayout>
+
+        <Entry x:Name="textemail"></Entry>
+        <Button Text="Reset password" x:Name="vistaa6bu" Clicked="vistaa6"/>
+
+
+    </StackLayout>
+</ContentPage>
